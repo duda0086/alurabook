@@ -1,0 +1,195 @@
+/*1 integração incial */
+
+h1{
+    color: blue;
+}
+/*2 comentarios com CSS */
+
+/* 3 id# */
+
+h3{
+    color: green;
+}
+
+#title{
+    color: blueviolet;
+}
+
+/*4 classes */
+
+text{
+    color: purple;
+}
+
+/*5 background */
+
+background {
+    background-color: violet;
+    color: black;
+    font-size: 30px;
+}
+
+/*6 dois elementos,duas regras */
+
+p,
+ .title-small{
+    color: darkmagenta;
+}
+.title-small{
+    font-size: 25px;
+}
+
+/*7 background imagem  */
+
+.background-image{ 
+
+    background-image:url(https://s3-sa-east-1.amazonaws.com/bluesoft-erp/probrazilian/ecommerce/produtos/fotos/01c8f7c2-009b-4a33-8800-c10b52343d6a/foto_product.jpg) ;
+    padding: 20px;
+    color: white;
+}
+
+/*8 largura e altura */
+
+#width-heighr{
+
+    width: 200px;
+    height: 100px;
+    background-color: seagreen;
+}
+
+/*9 padding */
+#padding{
+
+    background-color: beige;
+    padding: 20px;
+
+}
+
+/*10 margin */
+#margin{
+
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: 20px;
+
+}
+
+/*11 border */
+#border{
+
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    margin: 30px;
+
+}
+
+/* 12 border radius */
+#border-radius{
+
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    border: 2px dashed aquamarine;
+    border-radius: 10px;
+
+}
+
+/*13 cores */
+
+#rgb, #hsl, #hex{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#hex{
+    background-color: tomato;
+
+}
+
+#rgb{
+    background-color: rgb(red, green, blue);
+
+    }
+
+#hsl{
+    background-color: hsl(100, 20%, 80%);
+}
+/*14 alinhanto */
+
+#center{
+    text-align: center;
+
+}
+
+p{
+    font-size: 25px;
+}
+
+/*15 decoration */
+
+#underline{
+    text-decoration: underline;
+}
+
+#line{
+    text-decoration: line-through;
+}
+
+#sem-underline{
+    text-decoration: none;
+}
+
+/* 16 font size */
+
+#font-pequena{
+    font-size: 10px;
+}
+
+/*17 trasnform */
+
+#upper{
+    text-transform: uppercase;
+}
+
+#lower{
+    text-transform: lowercase;
+}
+
+/*18 font family*/
+
+#serif{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#sans-serif{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cursive{
+    font-family: cursive;
+}
+
+/* 19 display */
+
+.inline{
+    width: 50px;
+    height: 50px;
+    background-color: azure;
+}
+
+:root {
+    --azul-principal: #162458;
+    --branco-lentra: #FFFFFF;
+    
+
+}
+
+body {
+    background-color: var(--branco-lentra);
+}
+        
+    
